@@ -1,0 +1,39 @@
+.container-saldo-disponivel {
+    position: absolute;
+    width: 900px;
+    height: 170px;
+    top: 90px;
+    left: 510px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(360deg, #0676FA 0%, #0457B9 61%, #034694 100%);
+    justify-content: center;
+    border-radius: 15px;
+    
+}
+
+.text-saldo-disponivel {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    color:rgba(240, 248, 255, 0.978);
+}
+
+.container-central-atendimento {
+    border: 1px solid #FFF;
+    background: #0457B9;
+    position: absolute;
+    border-radius: 10px;
+    height: 55px;
+    width: 780px;
+    top: 650px;
+    left: 580px;
+}
+
+.text-central-atendimento {
+    font-size: 10px;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    color:rgba(240, 248, 255, 0.978);
+}

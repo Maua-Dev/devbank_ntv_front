@@ -1,0 +1,37 @@
+.imageHeader{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 80px;
+    
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    padding: 70px 0;
+    width: 100vw;
+    height: auto;
+    background: #002653;
+    display: flex;
+    max-height: 80px;
+    text-align: center;  /* Alinha verticalmente o texto*/
+    align-items: center; /* Alinha todos os itens verticalmente */
+}
+
+.nomeDoBanco{
+   width: 100%;
+   height: 100px;
+   background: linear-gradient(180deg, #0075FF 0%, #004699 100%);
+   flex-shrink: 0;
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   font-family: Inter;
+   font-size: 80px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   text-wrap: wrap;
+   word-break: break-all;
+}

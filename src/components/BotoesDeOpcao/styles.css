@@ -1,0 +1,27 @@
+.containerBotoesDeOpcao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 405px 0px 0px 380px; /*cima, direita, baixo, esquerda*/
+    align-items: center;
+}
+
+.botaoDeOpcao {
+    border-radius: 15px;
+    padding: 50px 80px;
+    background: linear-gradient(120deg, #2c8efe 15%, #03298f 100%);
+    font-size: 32px;
+    color:  #efefeff3;
+    margin: 0 20px 10px 20px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.364);
+    border-width: 0;
+    font-weight: bolder;
+    transition: transform 0.2s ease;
+}
+
+.botaoDeOpcao:hover{
+    background: linear-gradient(120deg, #000b18 15%, #03298f 100%);
+    transform: translateY(-5px);
+}

@@ -1,0 +1,10 @@
+.text-carregando {
+    justify-content: center;
+    align-items: center;
+    color:rgba(240, 248, 255, 0.978);
+    font-size: 50px;
+    width: 100%;
+    height: 100%;
+    font-weight: 700;
+
+}

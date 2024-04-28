@@ -1,21 +1,29 @@
-import { useState } from "react";
-import "./App.css";
-import Home from "./screens/Home.tsx";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import TelaHome from "./screens/TelaHome/Home";
+import TelaConta from "./screens/TelaConta/Conta";
+import Deposito from "./screens/TelaDeposito/Deposito.tsx";
+import Saque from "./screens/TelaSaque/Saque.tsx";
+import Transacoes from "./screens/TelaTransacoes/Transacoes.tsx";
+import Erro404 from "./screens/TelaErro404/Erro404.tsx";
+import { queryClient } from "./services/queryClient.ts";
+import { QueryClientProvider } from "react-query";
 
-function App() {
-    const [count, setCount] = useState(0);
-
+export default function App() {
     return (
-        <>
-            <h1>🚀 Vite React Template 🚀</h1>
-            <div className="card">
-                <button onClick={() => setCount((count) => count + 1)}>
-                    count is {count}
-                </button>
-                <Home></Home>
-            </div>
-        </>
+        <BrowserRouter>
+            <QueryClientProvider client={queryClient}>
+                <Routes>
+                    <Route path={"*"} element={<Erro404 />}></Route>
+                    <Route path={"/"} element={<TelaHome />}></Route>
+                    <Route path={"/Conta"} element={<TelaConta />}></Route>
+                    <Route path={"/Deposito"} element={<Deposito />}></Route>
+                    <Route path={"/Saque"} element={<Saque />}></Route>
+                    <Route
+                        path={"/Transacoes"}
+                        element={<Transacoes />}
+                    ></Route>
+                </Routes>
+            </QueryClientProvider>
+        </BrowserRouter>
     );
 }
-
-export default App;

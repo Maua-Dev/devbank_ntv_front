@@ -1,0 +1,127 @@
+.box {
+    height: 0px;
+    width: 0px;
+  }
+  
+  .box .side-bar {
+    height: 100px;
+    left: 0;
+    top: 0;
+    width: 25vw;
+  }
+  
+  .box .overlap-group {
+    background: linear-gradient(180deg, rgb(169.82, 206.16, 248.82) 0%, rgb(167.39, 203.21, 245.25) 66.5%, rgb(100.21, 121.65, 146.82) 100%);
+    height: 100vh;
+    left: 0px;
+    position: relative;
+    width: 25vw;
+  }
+  
+  .box .overlap {
+    background: linear-gradient(180deg,rgb(239.32, 246.92, 253.92) 0%,rgb(230.97, 238.3, 245.06) 0.01%,rgb(230.97, 238.3, 245.06) 20%,rgb(230.97, 238.3, 245.06) 97%,rgb(230.97, 238.3, 245.06) 99.97%,
+    rgb(230.95, 238.28, 245.04) 99.98%,rgb(230.67, 237.99, 244.74) 99.99%, rgb(143.19, 147.73, 151.92) 100%);
+    height: 18vh;
+    left: 0;
+    position: absolute;
+    top: 310px;
+    width: 25vw;
+  }
+  
+  .box .text-wrapper {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 120px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 22px;
+    word-break: break-all;
+  }
+  
+  .box .CPF-XXX-XXX-XXX-XX {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 200;
+    left: 50px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 69px;
+    word-break: break-all;
+  }
+  
+  .box .div {
+    -webkit-text-stroke: 1px #a9cef8;
+    color: #ffffff;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    left: 150px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 450px;
+    word-break: break-all;
+  }
+  
+  .box .usuariosemfoto {
+    height: 167px;
+    left: 100px;
+    object-fit: cover;
+    position: absolute;
+    top: 100px;
+    width: 12vw;
+  }
+  
+  .box .text-ag-user {
+    -webkit-text-stroke: 1px #a9cef8;
+    color: #ffffff;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    left: 35px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 60px;
+    word-wrap: break-word;
+  }
+  
+  .box .text-cc-user {
+    -webkit-text-stroke: 1px #a9cef8;
+    color: #ffffff;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    left: 150px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 60px;
+    word-break: break-all;
+  }
+  
+  .box .text-welcome {
+    color: #ffffff;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 26px;
+    font-weight: 400;
+    left: 8px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 10px;
+    white-space: nowrap;
+  }
+  
+  .box .imglogo {
+    height: 12vh;
+    left: 280px;
+    position: absolute;
+    top: 325px;
+    width: 4.2vw;
+  }

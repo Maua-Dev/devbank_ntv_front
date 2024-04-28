@@ -1,0 +1,58 @@
+.divDasTeclas {
+    width: 45%;
+    margin: 20px auto 0 auto;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 20px;
+    background: #002653;
+    align-items: center;
+    justify-content: center;
+}
+
+.telaCaixaEletronico {
+    display: flex;
+    flex-direction: column;
+    background-color: #D9D9D9;
+    border-radius: 24px;
+    font-weight: 600;
+    width: 45%;
+    text-align: center;
+    margin: 30px auto 0 auto;
+}
+
+.telaCaixaEletronico h1 {
+    font-size: 64px;
+    margin: 0;
+    font-weight: 400;
+}
+
+.infoCaixaEletronico {
+    border-radius: 24px 24px 16px 16px;
+    background: rgba(0, 115, 230, 0.25);
+    text-align: start;
+    width: 100%;
+    align-items: center;
+    color: white;
+}
+
+.infoCaixaEletronico h2 {
+    padding: 0 22px;
+}
+
+.atm-button {
+    background-color: #2F48CB;
+    white-space: nowrap;
+    height: 6vh;
+    cursor: pointer;
+    width: 10.83vw;
+    margin: 10px 20px;
+    overflow: hidden;
+    color: white;
+    font-size: calc(1vw + 0.5em);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.atm-button:hover {
+    transform: scale(1.05);
+}

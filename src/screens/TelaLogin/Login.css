@@ -1,0 +1,112 @@
+#root {
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 350px;
+    padding: 50px;
+    border-radius: 20px;
+    position: relative;
+    background-color: rgb(48, 110, 255);
+    color: #fff;
+    border: 10px solid #011c4670;
+    margin-top: 100px;
+    margin-left: 550px;
+    }
+
+    .flex {
+    display: flex;
+    width: 100%;
+    gap: 6px;
+    }
+
+    .login-form label {
+    position: relative;
+    }
+
+    .login-form label .input {
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    padding: 20px 05px 05px 0px;
+    outline: 0;
+    border: 1px solid rgba(0, 0, 0, 0.397);
+    border-radius: 10px;
+    }
+
+    .login-form label .input + span {
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    left: 10px;
+    right: px;
+    top: 100px;
+    font-size: 0.9em;
+    cursor: text;
+    transition: 0.3s ease;
+    }
+
+    .login-form label .input:placeholder-shown + span {
+    top: 12.5px;
+    font-size: 0.9em;
+    }
+
+    .login-form label .input:focus + span,
+    .login-form label .input:valid + span {
+    color: #00bfff;
+    top: 0px;
+    font-size: 0.7em;
+    font-weight: 600;
+    }
+
+    .input {
+    font-size: medium;
+    
+    }
+    
+
+    .submit {
+    position: relative;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    transform: .3s ease;
+    background-color: #00bfff;
+    }
+
+    .submit:hover {
+    background-color: #00abe3a0;
+    font-size: 20px;
+    }
+
+    @keyframes pulse {
+    from {
+        transform: scale(0.9);
+        opacity: 1;
+    }
+
+    to {
+        transform: scale(1.8);
+        opacity: 0;
+    }
+    }
+
+    header img {
+        width: 400px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    body {
+        background-color: #34568B;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    

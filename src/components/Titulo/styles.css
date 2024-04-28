@@ -1,0 +1,28 @@
+.backButton img {
+    cursor: pointer;
+    position: absolute;
+    transition: transform 0.2s ease;
+    left: 300px;
+    bottom: 20px;
+}
+
+.backButton:hover img{
+    transform: scale(1.05);
+}
+
+.tituloDaTela {
+    color: white;
+    margin: 0;
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.segundoConteinerOperacoes {
+    display: flex;
+    width: 100%;
+    position: relative;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
